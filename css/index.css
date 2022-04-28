@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /*navebar style start*/
+  .site-header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+  }
+  
+  nav {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50%;
+  }
+  
+  .logo h1 {
+    padding-left: 1rem;
+  }
+  
+  .menu {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .menu ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .menu ul li {
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .menu ul li a {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  
+  .menu ul li a:hover,
+  .active {
+    background-color: #489ead;
+  }
+  
+  /*navbar style end*/
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 30px auto 30px;
+  }
+  
+  .container .main-content {
+    width: 70%;
+    float: left;
+    margin-bottom: 20px;
+  }
+  
+  /* media card starts here */
+  
+  .media {
+    display: flex;
+    align-items: flex-start;
+    padding: 1em;
+    margin: 1rem;
+    border-radius: 3px;
+    max-width: auto;
+    box-shadow: 0px 10px 12px #08080833;
+  }
+  .media-object {
+    margin-right: 1em;
+    width: 10rem;
+  }
+  .media-body {
+    flex: 1;
+  }
+  .media-heading {
+    margin: 0 0 .5em;
+  }
+  
+   /* Sidebar starts here*/
+  
+   .container .sidebar {
+    width: 30%;
+    float: left;
+  }
+  
+  .container .sidebar .card {
+    width: auto;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  } 
+  .container .sidebar .card img {
+    max-width: 100%;
+  }
+  .container .sidebar .card .text {
+    padding: 0 20px 20px;
+  }
+  
+  .container .sidebar .card h3{
+    line-height: 2;
+  }
+  
+  .container .sidebar .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    }
+  
+  
+    /* Footer starts here*/
+    footer{
+      text-align: center;
+      color: black;
+      margin: 1rem;
+    }
+    
+    a{
+      text-decoration: none;
+    }
